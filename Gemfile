@@ -39,6 +39,8 @@ group :development do
   gem "rerun"
 
   gem "pry"
+
+  gem 'sinatra-cross_origin'
 end
 
 # These gems will only be used when we are running tests
