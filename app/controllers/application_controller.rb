@@ -5,9 +5,9 @@ class ApplicationController < Sinatra::Base
     configure do
         enable :cross_origin
     end
-    
+
     before do
-        response.headers['Access-Control-Allow-Origin'] = '*'
+        response.headers['Access-Control-Allow-Origin'] = 'http://localhost:3000'
     end
     
     # routes...
